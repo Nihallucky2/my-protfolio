@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(1.jfif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color:#fff;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ul{
+    display:flex;
+    gap: 20px;
+  
+
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+} 
+nav h2{
+    color: #fff;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+
+}
+.contact{
+    padding: 10px 20px;
+    background: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+.contact li{
+    list-style: none;
+}
+.contact a{
+    color:#fff;
+    text-decoration: none;
+}
+.home{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 100px;
+}
+
+.texthome h1{
+    margin-bottom: 15px;
+    
+
+  
+}
+.button{
+  
+   
+    
+}
+.button a{
+ padding: 10px 20px;
+ 
+
+
+ border-radius: 5px;
+  background: blue;
+  text-decoration: none;
+  color: #fff;
+
+ 
+
+   
+}
+.button a:hover {
+  background: #1e40af;
+}
+.icons{
+    margin-top: 40px;
+}
+.icons i{
+  padding: 17px;
+  font-size: 19px;
+}
+.texthome p{
+    margin-bottom: 30px;
+    color: #cbd5f5;
+}
+.texthome  h1 span {
+   
+     text-shadow: 0 0 10px #3b82f6;
+     color: #3b82f6;
+}
+.homeimge img{
+    padding: 3px;
+    border: 2px solid blue;
+    width: 50%;
+    border-radius: 50%;
+    float: right;
+
+}
+img {
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
